@@ -20,7 +20,7 @@
    <widget class="QPushButton" name="burgers">
     <property name="geometry">
      <rect>
-      <x>795</x>
+      <x>885</x>
       <y>0</y>
       <width>165</width>
       <height>165</height>
@@ -32,38 +32,6 @@
     <property name="icon">
      <iconset>
       <normaloff>burgers_300x300 category-panel-left-desktop.jpeg</normaloff>burgers_300x300 category-panel-left-desktop.jpeg</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>300</width>
-      <height>300</height>
-     </size>
-    </property>
-    <property name="shortcut">
-     <string/>
-    </property>
-    <property name="autoDefault">
-     <bool>false</bool>
-    </property>
-    <property name="default">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="beverages">
-    <property name="geometry">
-     <rect>
-      <x>965</x>
-      <y>0</y>
-      <width>165</width>
-      <height>165</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>drinks_300x300 category-panel-left-desktop.jpeg</normaloff>drinks_300x300 category-panel-left-desktop.jpeg</iconset>
     </property>
     <property name="iconSize">
      <size>

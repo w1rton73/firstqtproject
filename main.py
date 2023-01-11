@@ -57,9 +57,13 @@ class MyWidget(QMainWindow):
         #self.SweetsTreats.clicked.connect(self.SweetsTreatsclick)
         #self.McCafeBakery.clicked.connect(self.McCafeBakeryclick)
         self.buy.clicked.connect(self.buyclick)
+        self.BigMac.clicked.connect(self.bigmacclick)
         self.QuarterPounderWithCheese.clicked.connect(self.QuarterPounderWithCheeseclick)
-        self.label.setText(f'{self.fullcall}')
-        self.label_2.setText(f'{self.fullprice}')
+        self.QuarterPounderWithCheeseDeluxe.clicked.connect(self.QuarterPounderWithCheeseDeluxeclick)
+        self.McDouble.clicked.connect(self.McDoubleclick)
+        self.QuarterPounderWithCheeseBacon.clicked.connect(self.QuarterPounderWithCheeseBaconclick)
+        self.label.setText(f'{self.fullcall}кал')
+        self.label_2.setText(f'{self.fullprice}руб')
 
     def ChickenFishSandwichesclick(self):
         uic.loadUi('vkusno i tochkaChickenFishSandwiches.ui', self)
@@ -152,26 +156,89 @@ class MyWidget(QMainWindow):
         self.pushButton.clicked.connect(self.burgerssclick)
 
     def burgerssclick(self):
-            self.value = int(self.spinBox.value())
-            print(self.value)
+            value = int(self.spinBox.value())
             pricee = 300
             call = 520
-            self.price.append(pricee * self.value)
-            self.call.append(call * self.value)
-            print(call * self.spinBox.value(), pricee * self.spinBox.value())
+            self.price.append(pricee * value)
+            self.call.append(call * value)
+            self.fullprice = sum(self.price)
+            self.fullcall = sum(self.call)
+            self.burgersclick()
+
+    def bigmacclick(self):
+        uic.loadUi('bigmac.ui', self)
+        with open("bigmac", encoding='utf8') as f:
+            self.textEdit.setText(f.read())
+        self.pushButton.clicked.connect(self.bigmacc)
+
+    def bigmacc(self):
+            value = int(self.spinBox.value())
+            pricee = 135
+            call = 550
+            self.price.append(pricee * value)
+            self.call.append(call * value)
+            self.fullprice = sum(self.price)
+            self.fullcall = sum(self.call)
+            self.burgersclick()
+
+    def QuarterPounderWithCheeseDeluxeclick(self):
+        uic.loadUi('QuarterPounderWithCheeseDeluxe.ui', self)
+        with open("QuarterPounderWithCheeseDeluxe", encoding='utf8') as f:
+            self.textEdit.setText(f.read())
+        self.pushButton.clicked.connect(self.deluxe)
+
+    def deluxe(self):
+            value = int(self.spinBox.value())
+            pricee = 360
+            call = 630
+            self.price.append(pricee * value)
+            self.call.append(call * value)
+            self.fullprice = sum(self.price)
+            self.fullcall = sum(self.call)
+            self.burgersclick()
+
+    def McDoubleclick(self):
+        uic.loadUi('McDouble.ui', self)
+        with open("McDouble", encoding='utf8') as f:
+            self.textEdit.setText(f.read())
+        self.pushButton.clicked.connect(self.Double)
+
+    def Double(self):
+            value = int(self.spinBox.value())
+            pricee = 200
+            call = 400
+            self.price.append(pricee * value)
+            self.call.append(call * value)
+            self.fullprice = sum(self.price)
+            self.fullcall = sum(self.call)
+            self.burgersclick()
+
+    def QuarterPounderWithCheeseBaconclick(self):
+        uic.loadUi('QuarterPounderWithCheeseBacon.ui', self)
+        with open("QuarterPounderWithCheeseBacon", encoding='utf8') as f:
+            self.textEdit.setText(f.read())
+        self.pushButton.clicked.connect(self.cbac)
+
+    def cbac(self):
+            value = int(self.spinBox.value())
+            pricee = 330
+            call = 630
+            self.price.append(pricee * value)
+            self.call.append(call * value)
             self.fullprice = sum(self.price)
             self.fullcall = sum(self.call)
             self.burgersclick()
 
     def buyclick(self):
-        uic.loadUi('vkusno i tochkamainwindow.ui', self)
-        check = ""
-        check = check + str(random.randrange(10))
-        check = check + str(random.randrange(10))
-        check = check + str(random.randrange(10))
-        check = check + str(random.randrange(10))
-        check = check + str(random.randrange(10))
-        self.label.setText(f"{check}")
+        if self.fullprice:
+            uic.loadUi('vkusno i tochkamainwindow.ui', self)
+            check = ""
+            check = check + str(random.randrange(10))
+            check = check + str(random.randrange(10))
+            check = check + str(random.randrange(10))
+            check = check + str(random.randrange(10))
+            check = check + str(random.randrange(10))
+            self.label.setText(f"{check}")
 
 
 if __name__ == '__main__':
