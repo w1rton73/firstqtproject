@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255)</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="breakfast">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>0</y>
+      <width>165</width>
+      <height>165</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>breakfast_300x300 category-panel-left-desktop.jpeg</normaloff>breakfast_300x300 category-panel-left-desktop.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="burgers">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>0</y>
+      <width>165</width>
+      <height>165</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>burgers_300x300 category-panel-left-desktop.jpeg</normaloff>burgers_300x300 category-panel-left-desktop.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ChickenFishSandwiches">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>0</y>
+      <width>165</width>
+      <height>165</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>nav_chickenfishsandwiches_160x160 category-panel-left-desktop.jpeg</normaloff>nav_chickenfishsandwiches_160x160 category-panel-left-desktop.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="McNuggetsAndMeals">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>0</y>
+      <width>165</width>
+      <height>165</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>nav_mcnuggetscombo_160x160 category-panel-left-desktop.jpeg</normaloff>nav_mcnuggetscombo_160x160 category-panel-left-desktop.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="HappyMeal">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>0</y>
+      <width>165</width>
+      <height>165</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>nav_happy_meal_160x160 category-panel-left-desktop.jpeg</normaloff>nav_happy_meal_160x160 category-panel-left-desktop.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FriesSides">
+    <property name="geometry">
+     <rect>
+      <x>795</x>
+      <y>0</y>
+      <width>165</width>
+      <height>165</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>snacks_sides_300x300 category-panel-left-desktop.jpeg</normaloff>snacks_sides_300x300 category-panel-left-desktop.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="McCafeCoffees">
+    <property name="geometry">
+     <rect>
+      <x>1125</x>
+      <y>0</y>
+      <width>165</width>
+      <height>165</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>mccafe_300x300 category-panel-left-desktop.jpeg</normaloff>mccafe_300x300 category-panel-left-desktop.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="McCafeBakery">
+    <property name="geometry">
+     <rect>
+      <x>1290</x>
+      <y>0</y>
+      <width>165</width>
+      <height>165</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Menu_LeftRail_mcd-160x160 category-panel-left-desktop.jpeg</normaloff>Menu_LeftRail_mcd-160x160 category-panel-left-desktop.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SweetsTreats">
+    <property name="geometry">
+     <rect>
+      <x>1455</x>
+      <y>0</y>
+      <width>165</width>
+      <height>165</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>desserts_shakes_300x300 category-panel-left-desktop.jpeg</normaloff>desserts_shakes_300x300 category-panel-left-desktop.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="beverages">
+    <property name="geometry">
+     <rect>
+      <x>1620</x>
+      <y>0</y>
+      <width>165</width>
+      <height>165</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>drinks_300x300 category-panel-left-desktop.jpeg</normaloff>drinks_300x300 category-panel-left-desktop.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>170</y>
+      <width>1920</width>
+      <height>820</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1918</width>
+       <height>818</height>
+      </rect>
+     </property>
+     <widget class="QPushButton" name="BaconEggCheeseBiscuit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Bacon-Egg-Cheese-Biscuit-Regular-Size-Biscuit-1 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Bacon-Egg-Cheese-Biscuit-Regular-Size-Biscuit-1 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageBurrito">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>240</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Sausage-Burrito-1 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Sausage-Burrito-1 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="HashBrowns">
+      <property name="geometry">
+       <rect>
+        <x>1070</x>
+        <y>240</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-HASH-BROWNS-1 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-HASH-BROWNS-1 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="FruitMapleOatmeal">
+      <property name="geometry">
+       <rect>
+        <x>1280</x>
+        <y>240</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Fruit-Maple-Oatmeal-1 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Fruit-Maple-Oatmeal-1 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="EggMcMuffinMeal">
+      <property name="geometry">
+       <rect>
+        <x>1490</x>
+        <y>240</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>h-mcdonalds-Egg-McMuffin-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</normaloff>h-mcdonalds-Egg-McMuffin-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageMcMuffinWithEggMeal">
+      <property name="geometry">
+       <rect>
+        <x>1700</x>
+        <y>210</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>h-mcdonalds-Sausage-McMuffin-with-Egg-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</normaloff>h-mcdonalds-Sausage-McMuffin-with-Egg-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BigBreakfastWithHotcakes">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>240</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Big-Breakfast-with-Hotcakes-Regular-Size-Biscuit-1 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Big-Breakfast-with-Hotcakes-Regular-Size-Biscuit-1 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BigBreakfast">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>240</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>s-mcdonalds-Big-Breakfast-Regular-Size-Biscuit-1 1-4-product-tile-desktop.jpeg</normaloff>s-mcdonalds-Big-Breakfast-Regular-Size-Biscuit-1 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageMcMuffinWithEgg">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Sausage-McMuffin-with-Egg 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Sausage-McMuffin-with-Egg 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageMcMuffin">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Sausage-McMuffin 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Sausage-McMuffin 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BaconEggCheeseMcGriddles">
+      <property name="geometry">
+       <rect>
+        <x>1280</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Bacon-Egg-Cheese-McGriddles 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Bacon-Egg-Cheese-McGriddles 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageBiscuitWithEgg">
+      <property name="geometry">
+       <rect>
+        <x>1070</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Sausage-Biscuit-with-Egg-Regular-Size-Biscuit-1 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Sausage-Biscuit-with-Egg-Regular-Size-Biscuit-1 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageEggCheeseMcGriddles">
+      <property name="geometry">
+       <rect>
+        <x>1700</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Sausage-Egg-Cheese-McGriddles-1 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Sausage-Egg-Cheese-McGriddles-1 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Hotcakes">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>240</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Hotcakes 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Hotcakes 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BaconEggCheeseMcGriddlesMeal">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>480</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>h-mcdonalds-Bacon-Egg-Cheese-McGriddles-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</normaloff>h-mcdonalds-Bacon-Egg-Cheese-McGriddles-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BaconEggCheeseBiscutMeal">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>480</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>h-mcdonalds-Bacon-Egg-Cheese-Biscuit-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</normaloff>h-mcdonalds-Bacon-Egg-Cheese-Biscuit-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageBurritoMeal">
+      <property name="geometry">
+       <rect>
+        <x>1070</x>
+        <y>480</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>h-mcdonalds-Sausage-Burrito-2-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</normaloff>h-mcdonalds-Sausage-Burrito-2-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageEggCheeseMcGriddlesMeal">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>480</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>h-mcdonalds-Sausage-Egg-Cheese-McGriddles-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</normaloff>h-mcdonalds-Sausage-Egg-Cheese-McGriddles-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageMcGriddlesMeal">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>480</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>h-mcdonalds-Sausage-McGriddles-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</normaloff>h-mcdonalds-Sausage-McGriddles-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="HotcakesAndSausage">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>240</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Hotcakes-and-Sausage 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Hotcakes-and-Sausage 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="EggMcMuffin">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Egg-McMuffin-1 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Egg-McMuffin-1 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageMcGriddles">
+      <property name="geometry">
+       <rect>
+        <x>1490</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Sausage-McGriddles 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Sausage-McGriddles 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageBiscuit">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>t-mcdonalds-Sausage-Biscuit-Regular-Size-Biscuit-1 1-4-product-tile-desktop.jpeg</normaloff>t-mcdonalds-Sausage-Biscuit-Regular-Size-Biscuit-1 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SausageBiscuitWithEggMeal">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>480</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string notr="true"/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>h-mcdonalds-Sausage-Biscuit-with-Egg-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</normaloff>h-mcdonalds-Sausage-Biscuit-with-Egg-Extra-Value-Meals 1-4-product-tile-desktop.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="buy">
+    <property name="geometry">
+     <rect>
+      <x>1800</x>
+      <y>1000</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 0)</string>
+    </property>
+    <property name="text">
+     <string>Заказать</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
